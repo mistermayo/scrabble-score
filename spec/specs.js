@@ -1,10 +1,10 @@
-describe('scrabbleScore', function() {
+describe('scrabble', function() {
   it("return score for a single letter", function(){
-    expect(scrabbleScore("q")).to.equal(10);
+    expect(scrabble("d")).to.equal(2);
   });
 
   it("return score for a full word", function() {
-    expect(scrabbleScore("Rambo")).to.equal(9);
+    expect(scrabble("Cat")).to.equal(5);
   });
 
 });
